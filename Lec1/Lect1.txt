@@ -1,0 +1,55 @@
+// let var const
+
+// var : Variable can be re-declared & updated. Aglobal scope variable
+// let : Variable cannot be re-declared but can be updated. A block scope variable
+//const : Variable cannot be re-declared or updated.A block scope variable.
+
+//Note -> const always be initilize with some value (Example->cont a=10;)
+/*---------------------------------------------------- */
+
+//DataType
+/*Primitive Data Type
+    Number
+    String
+    Boolean
+    Undefined
+    Null -> Its means that absences of an object.
+    BigInt -> BigInt for storing the big integer.
+    Symbol 
+
+    **Non-Primitive
+        object(Array,function)
+        
+    typeof NaN;
+        = 'number'
+*/
+
+typeof() -> operator is use to know the typr of variable.
+--------------------------------------------------------------
+objects -> It is a collection of all information, 
+            Like age,name,marks,isPass etc.
+        
+        {
+            key:value,
+            key:value
+        }
+
+        *Example*
+
+    //object
+const student={
+    name:"Ajay",
+    age:23,
+    isPass:true
+};
+console.log(student);
+console.log(student["name"]);
+console.log(student.age);
+
+//if we want to increase age number of student 
+student["age"]=student["age"]+1;
+console.log(student.age);
+
+----------------------------------------------------------------
+
+
