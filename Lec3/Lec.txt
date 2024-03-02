@@ -1,0 +1,20 @@
+*Lopps in JS*
+    Lopps are used to execute a piece of code again & again.
+
+for loop
+    for(initilization;condition;increment){
+        console.log("print statement");
+    }
+
+Example :-
+    for(let i=0;i<=5;i++){
+        console.log("Sita Ram");
+    }
+    
+while Lopps
+    variable;
+    while(condition){
+    
+        increment;
+    }
+
