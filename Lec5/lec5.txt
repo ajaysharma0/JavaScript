@@ -1,0 +1,29 @@
+Strings Methods:-
+    actions that can be performed on objects.
+
+Format:-
+    stringName.method();
+
+(1) Trim method in stringName
+    Trims Whitespace from both ends of string & return a new one.
+    Format:-str.trim();
+Note:-javaScript me string ko immutable kaha jata hai.
+
+Example:-
+let msg = "  hello  ";
+console.log(msg.trim());
+
+output:-hello
+
+The trim() method removes any leading and trailing whitespace from the string, leaving only the actual content. 
+In this case, it removes the spaces before and after the word "hello."
+//-------------
+let msg = "  hello  ";
+let trimmedMsg = msg.trim();
+console.log(trimmedMsg);
+
+  :- This code declares a string msg and creates a new trimmed string trimmedMsg using the trim() method, preserving the original string msg. 
+    The console.log(trimmedMsg); 
+    Ye purani string me koi change nahi karta h balki neew string as trim output deta hai. 
+------------------------------------------------------------------------------------------------------------------
+
