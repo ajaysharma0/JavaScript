@@ -47,4 +47,8 @@ Let's go through each part of your JavaScript code and explain it:
    ```
    - The `slice(startIndex, endIndex)` method extracts a portion of a string and returns it as a new string.
 
-Each method mentioned in your code performs a specific operation on strings, such as removing whitespace, changing case, finding index, and extracting substrings, demonstrating different functionalities provided by JavaScript for string manipulation.
+Each method mentioned in your code performs a specific operation on strings, 
+such as removing whitespace, 
+changing case, finding index, 
+and extracting substrings, 
+demonstrating different functionalities provided by JavaScript for string manipulation.
